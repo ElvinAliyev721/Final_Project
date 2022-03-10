@@ -6,7 +6,7 @@
     padding: 0;
 }
 
-.container{ 
+.container{
   position: relative;
 }
 
@@ -64,7 +64,6 @@ h1{
     font-size: 80px;
     line-height: 81.11px;
     margin-top: 40px;
-    width: 628px;
     margin-bottom: 25px;
 }
 
@@ -76,18 +75,20 @@ p{
     line-height: 2em;
     display: flex;
     flex-direction: column;
-    width: 414px;
-    height: 62px;
+}
+
+.text1-1{
+    line-height: 150%;
 }
 
 main{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    
 }
 
 .img1{
-    margin-left: 400px;
+    margin-left: 300px;
     width: 304px;
     height: 356px;
     position: relative;
@@ -104,10 +105,10 @@ main{
     }
 
 .man1{
-    position: absolute;
-    width: 304px;
-    height: 356px;
-    align-self: flex-end;
+  position: absolute;
+  width: 304px;
+  height: 356px;
+  align-self: flex-end;
 }
 
 .main1-end{
@@ -147,8 +148,7 @@ main{
 }
 
 .main2-body{
-    width: 1192px;
-    height: 485px;
+    
     margin-top: 174px;
     display: flex;
 }
@@ -158,14 +158,11 @@ h3{
     font-size: 55px;
     font-weight: 700;
     font-family: 'Roboto Slab', sans-serif;
-    margin-bottom: 15px;
-    width: 365px;
-    height: 93px;
+    position: relative;
+    bottom: 55px;
 }
   
 .text2{
-    width: 662px;
-    height: 374px;
     line-height: 1.5em;
     font-size: 24px;
     font-weight: 400px;
@@ -175,12 +172,12 @@ h3{
 }
 
 .man2{
-    top: -100px;
+    top: 4px;
     left: 20px;
     position: absolute;
     width: 314px;
     height: 315px;
-    margin-top: 100px;
+    
 }
 
 .ellipse2{
@@ -194,7 +191,7 @@ h3{
     width: 366px;
     height: 344px;
     margin-top: 120px;
-    margin-left: 190px;
+    left: 190px;
     display: flex;
     flex-direction: column-reverse;
 }
@@ -210,8 +207,6 @@ h3{
 }
 
 .m2{
-    width: 150px;
-    height: 39px;
     font-weight: 700;
     font-size: 25px;
     line-height: 32.5px;
@@ -234,4 +229,418 @@ h3{
 
 .m2-foot-txt3{
     margin-left: 95px;
+}
+
+
+@media screen and (max-width: 1440px){
+
+    body{
+        margin-left: 120px;
+    }
+
+    .logo{
+        width: 64.87px;
+        height: 38.23px; 
+    }
+
+    .menu{
+        margin-top: 56px;
+        
+      }
+    
+      .menu-img1{
+        width: 12.74px;
+        height: 12.16px;
+        margin-right: 5px;
+    }
+    
+    .menu-img2{
+        width: 12.74px;
+        height: 12.74px;
+        margin-right: 5px;
+    }
+    
+    
+    .menu-img3{
+        width: 11.58px;
+        height: 12.74px;
+        margin-right: 5px;
+    }
+
+    p{
+        font-size: 12px;
+    }
+
+    .first{
+        margin-right: 15px ;
+        
+    }
+    
+    .second{
+        margin-right: 15px ;
+    }
+    
+    .third{
+        margin-right: 15px ;
+    }
+
+    h1{
+        font-size: 46px;
+        line-height: 101.38%;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+
+    .text1-1{
+        font-size: 12px;
+        line-height: 150%;
+    }
+
+    .img1{
+        margin-left: 90px;
+        width: 176.07px;
+        height: 206.18px;
+        position: relative;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .ellipse1{
+        bottom: -19px;
+        position: absolute;
+        width: 158.69px;
+        height: 23.75px;
+        align-self: flex-end;
+        }
+    
+    .man1{
+      position: absolute;
+      width: 176.07px;
+      height: 206.18px;
+      align-self: flex-end;
+    }
+    
+    .main1-end{
+        width: 40%;
+        margin: 0 auto;
+    }
+
+    .saying{
+        margin-top: 50px;
+        border-radius: 2px;
+        width: 280.11px;
+        height: 115.83px;
+        margin-left: -90px;
+        
+    }
+    
+    .saying-self{
+        font-size: 14px;
+        line-height: 130%;
+        margin-left: -12.13px;
+        
+    }
+    
+    .saying-by{
+        padding-right: 17px;
+        font-size: 12px;
+        line-height: 130%;
+        font-weight: 400;
+        margin-top: 7px;
+    }
+
+    .main2-body{
+        margin-top: 100px;
+        display: flex;
+    }
+
+
+     h3{
+        bottom: 20px;
+        font-size: 32px;
+        
+    }
+
+    .text2{
+        font-size: 14px;
+        line-height: 150%;
+        font-weight: 400px;
+    }
+    .text2-2{
+        margin-top: 17px;
+        
+    }
+
+    .img2{
+        position: relative;
+        width: 181.86px;
+        height: 182.44px;
+        margin-right: 112px;
+        left: 100px;
+        margin-top: 10px;
+    }
+
+    .man2{
+        top: -15px;
+        left: 13px;
+        position: absolute;
+        width: 181.86px;
+        height: 182.44px;
+    }
+    
+    .ellipse2{
+        position: absolute;
+        width: 211.98px;
+        height: 34.17px;
+    }
+
+    .man3{
+        width: 134.37px;
+        height: 117.57px;
+    }
+    
+    .main2-foot{
+        
+        margin-top: 55px;
+    }
+
+    .m2{
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 130%;
+    }
+    
+    .m2-foot-txt{
+        display: flex;
+        line-height: 130%;
+    }
+    
+    .m2-foot-txt1{
+      margin-left: 70px;
+      font-size: 11px;
+     line-height: 130%;
+    }
+    
+    .m2-foot-txt2{
+        margin-left: 55px;
+        font-size: 11px;
+     line-height: 130%;
+    }
+    
+    .m2-foot-txt3{
+        margin-left: 33px;
+        font-size: 11px;
+     line-height: 130%;
+    }
+
+    
+}
+
+
+    
+@media screen and (max-width: 834px){
+
+    body{
+        margin-left: 40px;
+        margin-top: 40px;
+    }
+
+    .logo{
+        width: 52.19px;
+        height: 30.75px;
+    }
+
+    .menu{
+        margin-top: 45px;
+        
+      }
+
+    .menu-img1{
+        width: 10.25px;
+        height: 9.79px;
+        margin-right: 5px;
+    }
+    
+    .menu-img2{
+        width: 10.25px;
+        height: 10.25px;
+        margin-right: 5px;
+    }
+    
+    
+    .menu-img3{
+        width: 9.32px;
+        height: 10.25px;
+        margin-right: 5px;
+    }
+    
+    p{
+        font-size: 10px;
+    }
+
+    .first{
+        margin-right: 13px ;
+        
+    }
+    
+    .second{
+        margin-right: 13px ;
+    }
+    
+    .third{
+        margin-right: 13px ;
+    }
+
+    h1{
+        font-size: 37px;
+        line-height: 38px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+
+    .text1{
+        line-height: 15px;
+    }
+
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img1{
+        width: 141.68px;
+        height: 175.1px;
+        position: relative;
+        display: flex;
+        margin-right: 30px;
+        align-self: flex-end;
+    }
+    
+    .ellipse1{
+        bottom: -10px;
+        position: absolute;
+        width: 127.68px;
+        height: 19.1px; 
+        align-self: flex-end;
+        }
+    
+    .man1{
+      position: absolute;
+      width: 141.66px;
+      height: 165.89px;
+      align-self: flex-end;
+    }
+
+    .saying{
+         margin-top: 50px;
+         border-radius: 2px;
+         width: 225.36px;
+         height: 93.19px;
+         margin-left: -90px;
+         
+     }
+     
+     .saying-self{
+         font-size: 11px;
+         line-height: 130%;
+         margin-left: -12.13px;
+         
+     }
+     
+     .saying-by{
+         padding-right: 17px;
+         font-size: 10px;
+         line-height: 130%;
+         font-weight: 400;
+         margin-top: 7px;
+     }
+
+     .main2-body{
+        margin-top: 75px;
+        display: flex;
+        margin-bottom: 27px;
+        
+        flex-direction: column;
+    }
+
+
+     h3{
+        bottom: 20px;
+        font-size: 26px;
+    }
+
+    .text2{
+        font-size: 12px;
+        line-height: 18px;
+        font-weight: 400px;
+    }
+    .text2-2{
+        margin-top: 17px;
+        line-height: 18px;
+    }
+
+    .img2{
+        position: relative;
+        width: 170.55px;
+        height: 160.29px;
+        margin-right: 112px;
+        left: 45px;
+        margin-top: 10px;
+    }
+
+    .man2{
+        top: 3px;
+        left: 13px;
+        position: absolute;
+        width: 146.32px;
+        height: 146.78px;
+    }
+    
+    .ellipse2{
+        position: absolute;
+        width: 170.55px;
+        height: 27.49px;
+    }
+
+    .man3{
+        display: none;
+    }
+    
+    .main2-foot{
+        width: 206px;
+        display: flex;
+        margin-top: 0px;
+        flex-wrap: wrap;
+    }
+    .m2{
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 130%;
+    }
+    
+    .m2-foot-txt{
+        display: flex;
+       
+        line-height: 130%;
+    }
+    
+    .m2-foot-txt1{
+      width: 90px;
+      margin-left: 0px;
+      font-size: 10px;
+    }
+    
+    .m2-foot-txt2{
+        
+        margin-left: 34px;
+        font-size: 10px;
+    }
+    
+    .m2-foot-txt3{
+        margin-top: 34px;
+        width: 90px;
+        margin-left: 0px;
+        font-size: 10px;
+    }
+
 }
