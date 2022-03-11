@@ -268,7 +268,6 @@
     font-weight: bold;
     font-size: 55px;
     line-height: 101.38%;
-
     margin-bottom: 21px;
     padding-bottom: 25px;
 }
@@ -280,10 +279,7 @@
     line-height: 150%;
     width: 662px;
 }
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> main
+/*omer branch*/
 .third_of_end {
     background-color: rgb(239, 239, 239);
     padding-bottom: 111px;
@@ -402,6 +398,8 @@ footer {
 }
 .contacts_text {
     padding-left: 22px;
+    font-family: 'Roboto';
+
 }
 .mail {
     padding-top: 25px;
@@ -410,16 +408,361 @@ footer {
     padding-top: 146px;
     color: white;
     padding-left: 122px;
+    font-family: 18px;
     padding-bottom: 23px;
 }
-<<<<<<< HEAD
-=======
-=======
->>>>>>> b70fd19842051d47e2fcee4ffb51f94a31882874
->>>>>>> main
+
 /*media*/
-@media only screen and (max-width: 834px) {
+/*@media only screen and (max-width: 834px) {
     *{
         display: none;
     }
+}*/
+
+
+/*media last three parts for omer branch*/
+/*tablet*/
+@media (min-width:992px ) and (max-width:1280px){
+    /*section third_of_end */
+    .third_of_end {
+        background-color: rgb(239, 239, 239);
+        padding-bottom: 64.29px;
+    }
+    .kypc_proshlo {
+        padding-left: 70.66px;
+        padding-top: 52.7px;
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 101.38%;  
+    }
+    .kypc_card {
+        background-color: white;
+        width: 458.12px;
+        height: 261.2px;
+        margin-top: 19.69px;
+        margin-left: 72.97px;
+        border-radius: 17.38px;
+    }
+    .kypc_text {
+        font-family: Roboto;
+        font-size: 12px;
+        padding-top: 23.17px;
+        padding-left: 26.06px;
+        padding-right: 26.64px;
+        line-height: 150%;
+    }
+    .img_and_yekatirina {
+        width: 110.04px;
+        height: 97.88px;
+        margin-left: 15.06px;
+        margin-top: 5.79px;
+        display: flex;
+    }
+    .yekatirina_head {
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 17px;
+        width: 204.5px;
+        line-height: 101.38%;
+        margin-top: 28.96px;
+        margin-left: 17.38px;
+        padding-bottom: 11.5px;
+    }
+    .fb_logo {
+        margin-left: 17.38px;
+        width: 18.53px;
+        height: 17.95px;
+    }
+    /*section green_part*/
+    .green_part {
+        background-color: rgb(157, 201, 200);
+    }
+    .nachala_ceptember {
+        padding-top: 103.67px;
+        padding-left: 70.66px;
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 101.38%;
+    }
+    .stoimost {
+        padding-left: 70.66px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 101.38%;
+    }
+    .rubl {
+        font-family: Roboto;
+        font-style: normal;
+        padding-left: 70.66px;
+        padding-bottom: 40.5px;
+        padding-right: 28.9px;
+        padding-top: 1.15px;
+        font-weight: normal;
+        font-size: 46px;
+        line-height: 101.38%;
+    }
+    .dlya_and_seychas {
+        display: flex;
+        padding-right: 382.25px;
+        padding-left: 70.66px;
+        padding-bottom: 107.15px;
+    }
+    .second_of_end_head {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 101.38%; 
+    }
+    .second_of_end_text {
+        width: 170.28px;
+        height: 40.54px;
+        padding-top: 5.21px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 101.38%;
+    }
+    .seychas {
+        margin-left: 40.54px;
+    }
+    /*footer*/
+    footer {
+        background-color: black;
+    }
+    .logo_div {
+        display: flex;
+        padding-top: 28.96px;
+        padding-left: 70.66px;
+        justify-content: space-between;
+        color: white;
+    }
+    .social {
+        box-sizing: content-box;
+        width: 20px;
+        height: 20px;
+        padding-top: 16.8px;
+    }
+    .logo_mobile{
+        width: 66.6px;
+        height: 39.38px;
+    }
+    .so_pad {
+        padding-left: 14.48px;
+    }
+    .phone_mail {
+        display: flex;
+        flex-direction: column;
+        padding-right: 107.15px;
+    }
+    .cont {
+        display: flex;
+    }
+    .contacts{
+        box-sizing: content-box;
+        width: 15.64px;
+        height: 10.43px;
+    }
+    .contacts_text {
+        padding-left: 12.74px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 101.38%;
+    }
+    .mail {
+        padding-top: 14.48px;
+    }
+    .sinxroni {
+        padding-top: 85.14px;
+        color: white;
+        font-size: 10px;
+        padding-left: 70.66px;
+        padding-bottom: 13.32px;
+    }
+
+}
+
+/*phone*/
+@media (min-width:320px ) and (max-width:991px){
+    /*section third_of_end */
+    .third_of_end {
+        background-color: rgb(239, 239, 239);
+        padding-bottom: 53px;
+    }
+    .kypc_proshlo {
+        width: 300px;
+        padding-left: 36px;
+        padding-top: 42px;
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 101.38%;  
+    }
+    .kypc_card {
+        background-color: white;
+        width: 308px;
+        height: 248px;
+        margin-top: 11px;
+        margin-left: 36px;
+        border-radius: 13.98px;
+    }
+    .kypc_text {
+        font-family: Roboto;
+        font-size: 10px;
+        padding-top: 18.47px;
+        padding-left: 21px;
+        padding-right: 21px;
+        line-height: 150%;
+    }
+    .img_and_yekatirina {
+        width: 80px;
+        height: 84px;
+        margin-left: 21px;
+        margin-top: 21.52px;
+        display: flex;
+    }
+    .yekatirina_head {
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        width: 164.49px;
+        line-height: 101.38%;
+        margin-left: 13.63px;
+        margin-top: 20px;
+        padding-bottom: 10px;
+    }
+    .fb_logo {
+        margin-left: 13.63px;
+        width: 14.91px;
+        height: 17.2px;
+    }
+    /*section green_part*/
+    .green_part {
+        background-color: rgb(157, 201, 200);
+    }
+    .nachala_ceptember {
+        padding-top: 62px;
+        padding-left: 36px;
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        width: 260px;
+        line-height: 101.38%;
+    }
+    .stoimost {
+        padding-left: 36px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 101.38%;
+    }
+    .rubl {
+        font-family: Roboto;
+        font-style: normal;
+        padding-left: 36px;
+        padding-bottom: 20.6px;
+        padding-right: 14.6px;
+        padding-top: 0.5px;
+        font-weight: normal;
+        font-size: 37px;
+        line-height: 101.38%;
+    }
+    .dlya_and_seychas {
+        display: flex;
+        padding-right: 36px;
+        padding-left: 36px;
+        padding-bottom: 63px;
+    }
+    .second_of_end_head {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 101.38%; 
+    }
+    .second_of_end_text {
+        width: 140px;
+        height: 40.54px;
+        padding-top: 5px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 101.38%;
+    }
+    .seychas {
+        margin-left: 31.16px;
+    }
+    /*footer*/
+    footer {
+        background-color: black;
+    }
+    .logo_div {
+        display: flex;
+        flex-direction: column;
+        
+        padding-top: 23.3px;
+        padding-left: 36px;
+        justify-content: space-between;
+        color: white;
+    }
+    .social {
+        box-sizing: content-box;
+        width: 15.38px;
+        height: 15.38px;
+        padding-top: 13.98px;
+    }
+    .logo_mobile{
+        width: 53.59px;
+        height: 31.69px;
+    }
+    .so_pad {
+        padding-left: 8.39px;
+    }
+    .phone_mail {
+        padding-top: 48px;
+        display: flex;
+        flex-direction: column;
+    }
+    .cont {
+        display: flex;
+    }
+    .contacts{
+        box-sizing: content-box;
+        width: 12.58px;
+        height: 12.58px;
+    }
+    .contacts_text {
+        padding-left: 12.74px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 101.38%;
+    }
+    .mail {
+        padding-top: 14.48px;
+    }
+    .sinxroni {
+        padding-top: 48.99px;
+        color: white;
+        font-size: 10px;
+        padding-left: 36px;
+        padding-bottom: 10px;
+    }
+
 }
